@@ -64,12 +64,16 @@
                 </div>
 
                 <div class="form-content">
-                    <label>Name : </label>
+                    <label>Name </label>
                     <input type="text" placeholder="Joe ..." class="userName">
-                    <label>Last :</label>
-                    <input type="text" placeholder="Hiedsen ..." class="lastName">
+                    <label>Last </label>
+                    <input type="text" placeholder="Hiedsen ..." class="lastName"><br><br>
+                    <label>Email </label>
+                    <input type="email" placeholder="joehiedsen@gmail.com" class="email">
+                    <label>Gender</label>
+                    <input type="number" placeholder="Age just a number">
                     <br>
-                    <legend>Your Department</legend><br>
+                    <h2>Your Department</h2>
 
                     <input type="radio" value="1"  name="radiobtn" checked>
                     <label>Mechanical Dept.</label>
@@ -90,9 +94,39 @@
                     <label>Ithers</label>
                 </div>
 
-                <div class="form-ques">
-                    
+                <div class="form-ques-experience">
+                    <h3>What describes your Role in the Company the Best</h3>
+                    <select name="describeRole">
+                        <option value="1">Senior</option>
+                        <option value="2">Junior</option>
+                        <option value="3">Clerk</option>
+                    </select>
+
+                    <h3>What is your Experience in the Company</h3>
+                    <select name="experience">
+                        <option value="1">1-2 yrs</option>
+                        <option value="2">2-3 yrs</option>
+                        <option value="3">3-4 yrs</option>
+                        <option value="4">4+ yrs</option>
+                    </select>
+
+                    <h3>Day in Which you are filling the form</h3>
+                    <select>
+                        <option value="">Monday</option>
+                        <option value="">Tuesday</option>
+                        <option value="">Wednesday</option>
+                        <option value="">Thursday</option>
+                        <option value="">Friday</option>
+                        <option value="">Saturday</option>
+                        <option value="">Sunday</option>
+                    </select>
                 </div>
+
+                <div class="form-feedback">
+
+                </div>
+
+
             </form>
 
 
