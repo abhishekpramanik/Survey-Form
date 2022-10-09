@@ -1,0 +1,84 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-thumb{
+    background: #2192FF;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.box{
+    background-color: #F5EFE6;
+    max-width: 90%;
+    max-height: 80%;
+    align-items: center;
+    margin: auto;
+    top: 2rem;
+    bottom: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -4px 7px 25px 2px rgba(0,0,0,0.75);
+}
+.form-head{
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+.form-head h1 {
+    font-family: 'Stardom', sans-serif;
+    font-size: 3.2rem;
+}
+.form-head p {
+    color: #888;
+}
+
+.form-content {
+    text-align: center;
+    padding: 3rem; 
+}
+.form-content label,
+.form-content h2 {
+    font-family: 'General Sans', sans-serif;
+    font-weight: bolder;
+}
+
+
+.form-content > input {
+    align: center;
+    padding: 5px;
+    border-radius: 2px;
+}
+.form-ques-experience {
+    text-align: center;
+    margin-bottom: 30px;
+}
+option {
+    width: 350px;
+}
+
+.form-feedback {
+    text-align: center;
+}
+.form-feedback textarea {
+    border-radius: 5.5px;
+}
+.form-feedback button {
+    font-size: 20px;
+    padding: 5px 50px 5px 50px;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.form-feedback button:hover {
+    background-color: #2192FF;
+}
