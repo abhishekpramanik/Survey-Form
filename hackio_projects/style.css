@@ -67,7 +67,7 @@ option {
     text-align: center;
 }
 .form-feedback textarea {
-    border-radius: 20px;
+    border-radius: 5.5px;
 }
 .form-feedback button {
     font-size: 20px;
