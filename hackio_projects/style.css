@@ -1,43 +1,82 @@
 *{
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    
 }
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-thumb{
+    background: #2192FF;
+}
+html {
+    scroll-behavior: smooth;
+}
+
 
 .box{
     background-color: #F5EFE6;
     max-width: 90%;
-    max-height: 90%;
+    max-height: 80%;
     align-items: center;
     margin: auto;
-    border: 2px solid #000;
+    top: 2rem;
+    bottom: 2rem;
     padding: 20px;
 }
 .form-head{
     margin: auto;
     text-align: center;
-    padding: 3rem;
-    border: 2px solid #000;
+    padding: 2rem;
 }
+.form-head h1 {
+    font-family: 'Stardom', sans-serif;
+    font-size: 3.2rem;
+}
+.form-head p {
+    color: #888;
+}
+
 .form-content {
     text-align: center;
-    padding: 3rem;
+    padding: 3rem; 
 }
-.form-content > label {
-    padding: 20px;
-    
+.form-content label,
+.form-content h2 {
+    font-family: 'General Sans', sans-serif;
+    font-weight: bolder;
 }
+
+
 .form-content > input {
     align: center;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 .form-ques-experience {
     text-align: center;
-    border: 2px solid #000;
+    margin-bottom: 30px;
 }
+option {
+    width: 350px;
+}
+
 .form-feedback {
     text-align: center;
-    border: 2px solid #000;
-
+}
+.form-feedback textarea {
+    border-radius: 20px;
+}
+.form-feedback button {
+    font-size: 20px;
+    padding: 5px 50px 5px 50px;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.form-feedback button:hover {
+    background-color: #2192FF;
 }
